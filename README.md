@@ -1,7 +1,7 @@
 # ChronoLeaf
 
 <p align="center">
-  <img src="https://github.imqors.com/chronoleaf/image_2026-09-19_20-21-38.png" width="180">
+  <img src="https://github.imqors.com/chronoleaf/image_2026-09-19_20-21-38.png" height="320">
 </p>
 
 <p align="center">
@@ -9,7 +9,12 @@
 </p>
 
 <p align="center">
-  Track important dates, events and deadlines with a clean and modern interface.
+  Track important dates, deadlines and events with a clean and modern interface.
+</p>
+
+<p align="center">
+  <a href="README.ru.md">🇷🇺 Русский</a> ·
+  <a href="README.zh-CN.md">🇨🇳 中文</a>
 </p>
 
 ---
@@ -36,15 +41,18 @@ Each event has its own:
 - Name
 - Date
 - Time
-- Time zone
 - Countdown
 - Status
 
-### 🌍 Time Zones
+### 🌐 Three Languages
 
-Set a specific time zone for each event.
+ChronoLeaf currently supports three languages:
 
-This makes ChronoLeaf useful for deadlines, releases, launches, meetings and other events that happen in different parts of the world.
+- 🇷🇺 Russian
+- 🇬🇧 English
+- 🇨🇳 Chinese
+
+You can change the application language in the settings.
 
 ### 🎨 Modern Interface
 
@@ -103,4 +111,6 @@ No manual Python installation is required when using the provided installer.
 ```text
 ChronoLeaf/
 ├── README.md
+├── README.ru.md
+├── README.zh-CN.md
 └── install.bat
