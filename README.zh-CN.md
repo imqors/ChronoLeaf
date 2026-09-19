@@ -1,6 +1,7 @@
 # ChronoLeaf
 
 <p align="center">
+  <img src="https://github.imqors.com/chronoleaf/3ZL0iIiM.png" height="320">
   <img src="https://github.imqors.com/chronoleaf/image_2026-09-19_20-21-38.png" height="320">
 </p>
 
