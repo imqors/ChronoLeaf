@@ -146,7 +146,12 @@ ChronoLeaf 提供多种设置选项，可以根据个人习惯调整应用。
 * Windows 11
 * 安装时需要互联网连接
 
-使用安装程序时无需手动安装 Python。
+> **⚠️ 重要：** 在运行 `install.bat` 之前，请先安装 **Python 3.11 或更高版本**。
+> 如果未安装 Python，或者 Python 没有正确添加到 PATH，ChronoLeaf 的安装可能会失败。
+>
+> 安装 Python 时，请务必勾选安装程序底部的 **“Add Python.exe to PATH”**（或 **“Add Python to PATH”**）选项。
+>
+> 完成后运行 `install.bat`。ChronoLeaf 所需的其他依赖项将由安装程序自动安装。
 
 ---
 
