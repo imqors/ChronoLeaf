@@ -1,4 +1,4 @@
-# ChronoLeaf 2.2.2
+# ChronoLeaf 2.2.0
 
 <p align="center">
   <img src="https://github.imqors.com/chronoleaf/3ZL0iIiM.png" height="320">
