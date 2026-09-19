@@ -139,7 +139,12 @@ The installer automatically downloads the required application files and prepare
 * Windows 10 or Windows 11
 * Internet connection for installation
 
-No manual Python installation is required when using the provided installer.
+> **⚠️ Important:** Before running `install.bat`, please install **Python 3.11 or newer**.
+> If Python is not installed or is not correctly added to PATH, the ChronoLeaf installation may fail.
+>
+> During Python installation, make sure to enable **“Add Python.exe to PATH”** (or **“Add Python to PATH”**) at the bottom of the installer window.
+>
+> After that, run `install.bat`. All other required ChronoLeaf dependencies will be installed automatically by the installer.
 
 ---
 
