@@ -1,4 +1,4 @@
-# ChronoLeaf
+# ChronoLeaf 2.2.2
 
 <p align="center">
   <img src="https://github.imqors.com/chronoleaf/3ZL0iIiM.png" height="320">
@@ -26,10 +26,10 @@
 
 Create events with a specific date and time and see the remaining:
 
-- Days
-- Hours
-- Minutes
-- Seconds
+* Days
+* Hours
+* Minutes
+* Seconds
 
 ChronoLeaf continuously updates the countdown so you can see exactly how much time remains.
 
@@ -39,19 +39,34 @@ Create and manage multiple countdowns at the same time.
 
 Each event has its own:
 
-- Name
-- Date
-- Time
-- Countdown
-- Status
+* Name
+* Date
+* Time
+* Countdown
+* Status
+
+Events can also be reordered directly from the event card using the **Move Up** and **Move Down** controls.
+
+### 🗑️ Event Management
+
+Manage individual events directly from their cards.
+
+Available actions include:
+
+* ✏️ Edit an event
+* 🗑️ Delete a specific event
+* ⬆️ Move an event up
+* ⬇️ Move an event down
+
+The available move buttons automatically depend on the event's position in the list.
 
 ### 🌐 Three Languages
 
 ChronoLeaf currently supports three languages:
 
-- 🇷🇺 Russian
-- 🇬🇧 English
-- 🇨🇳 Chinese
+* 🇷🇺 Russian
+* 🇬🇧 English
+* 🇨🇳 Chinese
 
 You can change the application language in the settings.
 
@@ -65,9 +80,21 @@ The application uses visual indicators to make it easy to understand the urgency
 
 Events can display different statuses depending on how much time remains.
 
-- 🟢 **Normal** — plenty of time remains
-- 🟡 **Attention** — the event is approaching
-- 🔴 **Critical** — very little time remains
+* 🟢 **Normal** — plenty of time remains
+* 🟡 **Attention** — the event is approaching
+* 🔴 **Critical** — very little time remains
+
+### 🪟 Window Customization
+
+Customize how ChronoLeaf behaves as a desktop window.
+
+Available options include:
+
+* **Window transparency** — adjust the window opacity
+* **Always on top** — keep ChronoLeaf above other windows
+* **Timers Only** — hide unnecessary interface elements and focus on the countdowns
+
+The **Settings** button remains available in Timers Only mode, so the interface can always be restored.
 
 ### 💾 Local Storage
 
@@ -78,6 +105,15 @@ No account is required to use ChronoLeaf.
 ### ⚙️ Customizable Settings
 
 ChronoLeaf provides settings for customizing the application according to your preferences.
+
+Settings include:
+
+* Application language
+* Yellow status threshold
+* Red status threshold
+* Window transparency
+* Always on top
+* Timers Only mode
 
 ---
 
@@ -100,8 +136,8 @@ The installer automatically downloads the required application files and prepare
 
 ## 📋 Requirements
 
-- Windows 10 or Windows 11
-- Internet connection for installation
+* Windows 10 or Windows 11
+* Internet connection for installation
 
 No manual Python installation is required when using the provided installer.
 
@@ -115,3 +151,4 @@ ChronoLeaf/
 ├── README.ru.md
 ├── README.zh-CN.md
 └── install.bat
+```
