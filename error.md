@@ -120,4 +120,4 @@ Users are free to inspect the installer BAT file and obtain the Python source co
 
 ---
 
-**© IMQORS Team**
+**© IMQORS**
