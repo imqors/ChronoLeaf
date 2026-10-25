@@ -1,8 +1,8 @@
-# ChronoLeaf 2.2.0
+# ChronoLeaf 2.2.1
 
 <p align="center">
-  <img src="https://github.imqors.com/chronoleaf/oh2R2Vg5.png" height="320">
-  <img src="https://github.imqors.com/chronoleaf/PsIR23LB.png" height="320">
+  <img src="https://github.imqors.com/chronoleaf/8Z4yK.png" height="320">
+  <img src="https://github.imqors.com/chronoleaf/xD67C.png" height="320">
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Create events with a specific date and time and see the remaining:
 * Minutes
 * Seconds
 
-ChronoLeaf continuously updates the countdown so you can see exactly how much time remains.
+ChronoLeaf continuously updates each countdown using your computer's local system time.
 
 ### 📅 Multiple Events
 
@@ -72,17 +72,17 @@ You can change the application language in the settings.
 
 ### 🎨 Modern Interface
 
-ChronoLeaf is designed with a dark, minimal and modern interface focused on readability.
+ChronoLeaf features a dark, minimal interface designed for readability and everyday use.
 
-The application uses visual indicators to make it easy to understand the urgency of an upcoming event.
+Visual indicators help you quickly understand the urgency of upcoming events.
 
 ### 🟢 Event Status
 
-Events can display different statuses depending on how much time remains.
+Events display different statuses depending on the time remaining:
 
 * 🟢 **Normal** — plenty of time remains
 * 🟡 **Attention** — the event is approaching
-* 🔴 **Critical** — very little time remains
+* 🔴 **Critical** — very little time remains or the event has passed
 
 ### 🪟 Window Customization
 
@@ -117,34 +117,58 @@ Settings include:
 
 ---
 
+## 🆕 What's New in 2.2.1
+
+Version 2.2.1 focuses on refining the existing application and improving the build process rather than introducing major new features.
+
+* **Improved Builder** — the installation and build process has been made more carefully structured.
+* **Application Refinements** — the existing interface and application behavior have received additional attention.
+* **Same Core Experience** — ChronoLeaf retains its familiar functionality, settings, and event management workflow.
+
+The goal is to make building and using ChronoLeaf more straightforward without unnecessarily changing what already works.
+
+---
+
 ## 🖥️ Installation
 
-The easiest way to install ChronoLeaf is using the included installer.
+The easiest way to install ChronoLeaf is using the included builder/installer.
 
 ### Automatic installation
 
-1. Download `install.bat`
-2. Run the file
-3. Wait for the installation to finish
-4. ChronoLeaf will be created on your Desktop
+1. Download `install.bat`.
+2. Run the file.
+3. Wait for the build and installation process to finish.
+4. ChronoLeaf will be created on your Desktop.
 
-The installer automatically downloads the required application files and prepares ChronoLeaf for use.
+The builder downloads the required application files and prepares ChronoLeaf for use.
 
-> **Note:** An internet connection is required during installation.
+> **Note:** An internet connection is required during installation and building.
 
 ---
 
 ## 📋 Requirements
 
 * Windows 10 or Windows 11
-* Internet connection for installation
+* Internet connection for installation and building
+* Python installed and available to the builder
 
-> **⚠️ Important:** Before running `install.bat`, please install **Python 3.11 or newer**.
-> If Python is not installed or is not correctly added to PATH, the ChronoLeaf installation may fail.
->
-> During Python installation, make sure to enable **“Add Python.exe to PATH”** (or **“Add Python to PATH”**) at the bottom of the installer window.
->
-> After that, run `install.bat`. All other required ChronoLeaf dependencies will be installed automatically by the installer.
+### Recommended Python version
+
+**Python 3.11 is still the recommended version** for the most predictable build experience.
+
+However, the builder has been refined in version 2.2.1, so you can first try building ChronoLeaf with your currently installed Python version instead of immediately installing a different one.
+
+Compatibility may depend on the Python version and the availability of compatible dependencies. If the build fails, try Python 3.11.
+
+During Python installation, make sure to enable **“Add Python.exe to PATH”** (or **“Add Python to PATH”**).
+
+> **Important:** The builder requires Python to build the application. If the resulting executable bundles its required runtime and dependencies, end users generally do not need to install Python separately.
+
+### Windows compatibility
+
+ChronoLeaf is designed for **Windows 10 and Windows 11**, with these versions as its primary target platforms.
+
+Countdowns follow your computer's local system time, so events are calculated according to the current date and time configured in Windows.
 
 ---
 
@@ -157,3 +181,10 @@ ChronoLeaf/
 ├── README.zh-CN.md
 └── install.bat
 ```
+
+---
+
+<p align="center">
+  <strong>Created by IMQORS · Approved by So</strong><br>
+  <a href="https://imqors.com/">imqors.com</a>
+</p>
